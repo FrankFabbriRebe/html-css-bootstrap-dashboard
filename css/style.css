@@ -17,8 +17,31 @@ body    {
     left: 0;
     height: 70px;
     width: 100%;
+    display: flex;
     /* debug */
     background-color: orange;
+}
+
+.my_logo    {
+    height: 100%;
+    width: 80px;
+    /* debug */
+    border: 2px solid black;
+}
+
+
+.my_search_bar  {
+    height: 100%;
+    flex-grow: 1;
+    /* debug */
+    border: 2px solid black;
+}
+
+.my_header_icon {
+    height: 100%;
+    width: 60px;
+    /* debug */
+    border: 2px solid black;
 }
 
 /* my_main */
@@ -36,6 +59,7 @@ body    {
     /* debug */
     background-color: blueviolet;
 }
+
 
 /* my_main_cnt */
 .my_main_cnt    {
