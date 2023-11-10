@@ -10,6 +10,11 @@ body    {
     font-family: "Roboto";
 }
 
+a   {
+    text-decoration: none;
+    color: white;
+}
+
 /* my_header */
 .my_header  {
     position: fixed;
@@ -77,10 +82,26 @@ body    {
 .my_nav {
     width: 80px;
     height: 100%;
-    /* debug */
-    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-image: url("../asset/img/sidebar-bg.png");
+    background-color: #041E34;
 }
 
+.my_nav_div {
+    padding: 15px;
+    line-height: 40px;
+    text-align: center;
+}
+
+.link_nav  span {
+    display: none;
+}
+
+.link_nav:hover {
+    background-color: grey;
+}
 
 /* my_main_cnt */
 .my_main_cnt    {
@@ -119,5 +140,9 @@ body    {
 
     .desktop_icon i {
         margin-right: 10px;
+    }
+
+    .link_nav  span {
+        display: inline;
     }
 }
