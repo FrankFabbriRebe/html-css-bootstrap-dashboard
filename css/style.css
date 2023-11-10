@@ -9,3 +9,38 @@
 body    {
     font-family: "Roboto";
 }
+
+/* my_header */
+.my_header  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 70px;
+    width: 100%;
+    /* debug */
+    background-color: orange;
+}
+
+/* my_main */
+.my_main    {
+    margin-top: 70px;
+    height: calc(100vh - 70px);
+    width: 100%;
+    display: flex;
+}
+
+/* my_nav */
+.my_nav {
+    width: 80px;
+    height: 100%;
+    /* debug */
+    background-color: blueviolet;
+}
+
+/* my_main_cnt */
+.my_main_cnt    {
+    flex-grow: 1;
+    /* debug */
+    height: 100%;
+    background-color: bisque;
+}
