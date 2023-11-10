@@ -38,9 +38,12 @@ body    {
     display: flex;
 }
 
+
 /* BS search bar */
 .bg-body-tertiary    {
     width: 100%;
+    /* to check !important */
+    background-color: white !important;
 } 
 
 .d-flex     {
