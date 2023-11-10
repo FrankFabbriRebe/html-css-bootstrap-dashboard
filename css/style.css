@@ -44,3 +44,10 @@ body    {
     height: 100%;
     background-color: bisque;
 }
+
+/* dekstop version */
+@media all and (min-width: 992px)   {
+    .my_nav {
+        width: 100px;
+    }
+}
