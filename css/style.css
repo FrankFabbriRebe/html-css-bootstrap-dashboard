@@ -111,6 +111,42 @@ a   {
     background-color: bisque;
 }
 
+.my_main_cnt_header {
+    background-color: #1B72E8;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+.my_main_cnt_header h1  {
+    display: inline;
+}
+
+.blue_button    {
+    display: inline;
+    background-color: #165BBA;
+    padding: 10px;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+
+.boolean_piano {
+    display: flex;
+    align-items: center;
+}
+
+#special_btn    {
+    margin-left: 0;
+}
+
+.new_student    {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
 /* dekstop version */
 @media all and (min-width: 992px)   {
     .my_nav {
@@ -144,5 +180,11 @@ a   {
 
     .link_nav  span {
         display: inline;
+    }
+}
+
+@media all and (min-width: 768px)   {
+    .new_student    {
+        justify-content: end;
     }
 }
