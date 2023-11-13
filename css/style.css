@@ -151,11 +151,21 @@ a   {
     gap: 10px;
 }
 
+.to_do_check    {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.to_do_cnt {
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 10px;
+}
+
 .btn-primary    {
     background-color: #1B72E8;
     border: 1px solid white;
 }
-
 
 /* my_dashboard section */
 .my_dashboard   {
@@ -175,7 +185,7 @@ a   {
 }
 
 /* table "prossime classi" */
-.table, .accordion, .active_user, .active_user_cnt, .my_month {
+.table, .accordion, .active_user, .active_user_cnt  {
     border: 1px solid black;
 }
 
@@ -219,7 +229,7 @@ a   {
 /* active user section */
 .active_user    {
     margin-top: 15px;
-    padding: 3px;
+    padding: 10px;
     /* debug */
     /* height: 100px; */
 }
@@ -227,11 +237,16 @@ a   {
 .active_user_cnt    {
     height: 100%;
     width: 100%;
+    padding: 10px;
 }  
 
 .img_active_user    img {
     width: 100%;
     /* height: 100%; */
+}
+
+hr  {
+    margin: 0;
 }
 
 .active_user a  {
