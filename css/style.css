@@ -122,9 +122,9 @@ a   {
 }
 
 .blue_button    {
-    display: inline;
+    /* display: inline; */
     background-color: #165BBA;
-    padding: 10px;
+    padding: 2px 10px;
     border-radius: 10px;
     margin-left: 10px;
     margin-right: 10px;
@@ -134,10 +134,15 @@ a   {
 .boolean_piano {
     display: flex;
     align-items: center;
+    font-size: 15px;
 }
 
 #special_btn    {
     margin-left: 0;
+}
+
+.desktop_breadcrumb {
+    display: none;
 }
 
 .new_student    {
@@ -271,6 +276,14 @@ a   {
 
     .link_nav  span {
         display: inline;
+    }
+
+    .desktop_breadcrumb {
+        display: flex;
+    }
+
+    #my_plus    {
+        display: none;
     }
 }
 
