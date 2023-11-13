@@ -157,8 +157,6 @@ a   {
 }
 
 .to_do_cnt {
-    border: 1px solid black;
-    border-radius: 10px;
     padding: 10px;
 }
 
@@ -169,26 +167,28 @@ a   {
 
 /* my_dashboard section */
 .my_dashboard   {
-    padding-top: 5px;
+    padding-top: 15px;
     /* debug */
     /* height: 100%; */
 }
 
 
 /* next class section */
+.next_class {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
 .dash_sect_title   {
     background-color: #F7F7F7;
     padding: 3px;
+    border-bottom: 1px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
-    border: 1px solid black;
 }
 
 /* table "prossime classi" */
-.table, .accordion, .active_user, .active_user_cnt  {
-    border: 1px solid black;
-}
-
 .my_done    {
     background-color: #198755;
     color: white;
@@ -223,20 +223,32 @@ a   {
 
 /* F.A.Q. section */
 .my_faq {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* to do section */
+.my_to_do   {
+    border: 1px solid black;
+    border-radius: 10px;
     margin-bottom: 20px;
 }
 
 /* active user section */
 .active_user    {
-    margin-top: 15px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
     padding: 10px;
     /* debug */
     /* height: 100px; */
 }
 
 .active_user_cnt    {
-    height: 100%;
-    width: 100%;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
     padding: 10px;
 }  
 
