@@ -93,211 +93,213 @@
     <!-- my_main -->
     <div class="my_main">
 
-        <!-- my_nav -->
-        <div class="my_nav">
+      <!-- my_nav -->
+      <div class="my_nav">
 
-            <!-- section top -->
-            <div class="my_nav_div">
+        <!-- section top -->
+        <div class="my_nav_div">
 
-                <a href="#">
-                    <div class="link_nav">
-                        <i class="fa-solid fa-house" style="color: #ffffff;"></i>
-                        <span>Home</span>
-                    </div>
-                </a>
+            <!-- home link -->
+            <a href="#">
+                <div class="link_nav">
+                    <i class="fa-solid fa-house" style="color: #ffffff;"></i>
+                    <span>Home</span>
+                </div>
+            </a>
 
-                <a href="#">
-                    <div class="link_nav">
-                        <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
-                        <span>Stats</span>
-                    </div>
-                </a>
+            <!-- stats link -->
+            <a href="#">
+                <div class="link_nav">
+                    <i class="fa-solid fa-chart-simple" style="color: #ffffff;"></i>
+                    <span>Stats</span>
+                </div>
+            </a>
 
-                <a href="#">
-                    <div class="link_nav">
-                        <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
-                        <span>Signal</span>
-                    </div>
-                </a>
-
-            </div>
-
-            <!-- section bottom -->
-            <div class="my_nav_div">
-
-                <a href="#">
-                    <div class="link_nav">
-                        <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
-                        <span>Admin</span>
-                    </div>
-                </a>
-
-            </div>
+            <!-- signal link -->
+            <a href="#">
+                <div class="link_nav">
+                    <i class="fa-solid fa-signal" style="color: #ffffff;"></i>
+                    <span>Signal</span>
+                </div>
+            </a>
 
         </div>
 
-        <!-- my_main_cnt -->
-        <div class="my_main_cnt">
+        <!-- section bottom -->
+        <div class="my_nav_div">
 
-            <!-- header section my_main_cnt -->
-            <div class="my_main_cnt_header">
+          <!-- admin link -->
+          <a href="#">
+            <div class="link_nav">
+              <i class="fa-solid fa-gear" style="color: #ffffff;"></i>
+              <span>Admin</span>
+            </div>
+          </a>
 
-                <!-- BS container -->
-                <div class="container-fluid">
+        </div>
 
-                    <div class="row justify-content-center align-items-center gy-3">
+      </div>
 
-                        <div class="col-12 col-md-8">
+      <!-- my_main_cnt -->
+      <div class="my_main_cnt">
 
-                            <div class="boolean_piano">
-                                <h2>Boolean</h2>
-                                <a href="#">
-                                    <div class="blue_button">
-                                        Piano blaze
-                                    </div>
-                                </a>
+        <!-- header section my_main_cnt -->
+        <div class="my_main_cnt_header">
+
+          <!-- BS container -->
+          <div class="container-fluid">
+
+            <!-- row -->
+            <div class="row justify-content-center align-items-center gy-3">
+
+              <!-- col -->
+              <div class="col-12 col-md-8">
+
+                <!-- top part -->
+                <div class="boolean_piano">
+                    <h2>Boolean</h2>
+                    <a href="#">
+                        <div class="blue_button">
+                            Piano blaze
+                        </div>
+                    </a>
+                </div>
+                
+                <!-- bottom part -->
+                <div class="boolean_piano">
+                  <div id="special_btn" class="blue_button">
+                      3 app
+                  </div>
+                  <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
+                  <a href="#">
+                      <div id="my_plus" class="blue_button">+</div>
+                  </a>
+
+                  <!-- breadcrumb visible just in desktop version -->
+                  <div class="desktop_breadcrumb">
+                      
+                    <div class="blue_button">
+                        Boolean mobile app
+                    </div>
+
+                    <div class="blue_button">
+                        Boolean web app
+                    </div>
+
+                    <div class="blue_button">
+                        Boolean blog app
+                    </div>
+
+                  </div>
+                    
+                </div>
+                    
+              </div>
+
+                <div class="col-12 col-md-2">
+
+                    <div class="online_student">
+                        <span>Studenti on line negli ultimi 30 minuti</span>
+                        <h3>125</h3>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-2">
+                    <div class="new_student">
+                        <span>Nuovo studente</span>
+                        
+                        <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+
+                        <!-- offcanvas menu from BS -->
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                            <div class="offcanvas-header">
+                              <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                             </div>
                         
-
+                            <div class="offcanvas-body">
                         
-                            <div class="boolean_piano">
-                                <div id="special_btn" class="blue_button">
-                                    3 app
+                              <form class="row g-3 needs-validation" novalidate>
+                        
+                                <div class="col-6">
+                                  <label for="validationCustom01" class="form-label">First name</label>
+                                  <input type="text" class="form-control" id="validationCustom01" required>
                                 </div>
-                                <i class="fa-solid fa-angles-right" style="color: #ffffff;"></i>
-                                <a href="#">
-                                    <div id="my_plus" class="blue_button">+</div>
-                                </a>
-
-                                <!-- breadcrumb visible just in desktop version -->
-                                <div class="desktop_breadcrumb">
-                                    
-                                    <div class="blue_button">
-                                        Boolean mobile app
-                                    </div>
-
-                                    <div class="blue_button">
-                                        Boolean web app
-                                    </div>
-
-                                    <div class="blue_button">
-                                        Boolean blog app
-                                    </div>
-
+                        
+                                <div class="col-6">
+                                  <label for="validationCustom02" class="form-label">Cognome</label>
+                                  <input type="text" class="form-control" id="validationCustom02" required>
                                 </div>
-                               
-                            </div>
-                            
-                        </div>
-
-                        <div class="col-12 col-md-2">
-
-                            <div class="online_student">
-                                <span>Studenti on line negli ultimi 30 minuti</span>
-                                <h3>125</h3>
-                            </div>
-
-                        </div>
-
-                        <div class="col-12 col-md-2">
-                            <div class="new_student">
-                                <span>Nuovo studente</span>
-                                
-                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
-
-                                <!-- offcanvas menu from BS -->
-                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
-                                    <div class="offcanvas-header">
-                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
-                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-                                    </div>
-                                
-                                    <div class="offcanvas-body">
-                                
-                                      <form class="row g-3 needs-validation" novalidate>
-                                
-                                        <div class="col-6">
-                                          <label for="validationCustom01" class="form-label">First name</label>
-                                          <input type="text" class="form-control" id="validationCustom01" required>
-                                        </div>
-                                
-                                        <div class="col-6">
-                                          <label for="validationCustom02" class="form-label">Cognome</label>
-                                          <input type="text" class="form-control" id="validationCustom02" required>
-                                        </div>
-                                
-                                        <div class="col-6">
-                                          <label for="validationCustomUsername" class="form-label">Email</label>
-                                          <div class="input-group has-validation">
-                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
-                                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
-                                          </div>
-                                        </div>
-                                
-                                        <div class="col-6">
-                                          <label for="validationCustom02" class="form-label">Password</label>
-                                          <input type="password" class="form-control" id="validationCustom02" required>
-                                        </div>
-                                
-                                        <div class="col-4">
-                                          <label for="validationCustom03" class="form-label">Città</label>
-                                          <input type="text" class="form-control" id="validationCustom03" required>
-                                        </div>
-                                
-                                        <div class="col-4">
-                                          <label for="validationCustom04" class="form-label">Stato</label>
-                                          <select class="form-select" id="validationCustom04" required>
-                                            <option selected disabled value="">Scegli...</option>
-                                            <option>Italia</option>
-                                            <option>Francia</option>
-                                            <option>Spagna</option>
-                                          </select>
-                                        </div>
-                                
-                                        <div class="col-4">
-                                          <label for="validationCustom05" class="form-label">CAP</label>
-                                          <input type="text" class="form-control" id="validationCustom05" required>
-                                          <div class="invalid-feedback">
-                                            Please provide a valid zip.
-                                          </div>
-                                        </div>
-                                
-                                        <div class="col-12">
-                                          <label for="validationCustomFoto" class="form-label">Foto</label>
-                                          <div class="input-group has-validation">
-                                            <input type="file" id="fileInput" name="fileInput">
-                                        </div>
-                                        </div>
-                                
-                                        <div class="col-12">
-                                          <div class="form-check">
-                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
-                                            <label class="form-check-label" for="invalidCheck">
-                                              Seleziona per proseguire
-                                            </label>
-                                            <div class="invalid-feedback">
-                                              You must agree before submitting.
-                                            </div>
-                                          </div>
-                                        </div>
-                                
-                                        <div class="col-3">
-                                          <button class="btn btn-primary" type="submit">Salva</button>
-                                        </div>
-                                
-                                        <div class="col-3">
-                                          <button class="btn btn-warning" type="submit">Svuota</button>
-                                        </div>
-                                
-                                        
-                                      </form>
-                                
-                                    </div>
-                                
+                        
+                                <div class="col-6">
+                                  <label for="validationCustomUsername" class="form-label">Email</label>
+                                  <div class="input-group has-validation">
+                                    <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                    <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                  </div>
                                 </div>
-
+                        
+                                <div class="col-6">
+                                  <label for="validationCustom02" class="form-label">Password</label>
+                                  <input type="password" class="form-control" id="validationCustom02" required>
+                                </div>
+                        
+                                <div class="col-4">
+                                  <label for="validationCustom03" class="form-label">Città</label>
+                                  <input type="text" class="form-control" id="validationCustom03" required>
+                                </div>
+                        
+                                <div class="col-4">
+                                  <label for="validationCustom04" class="form-label">Stato</label>
+                                  <select class="form-select" id="validationCustom04" required>
+                                    <option selected disabled value="">Scegli...</option>
+                                    <option>Italia</option>
+                                    <option>Francia</option>
+                                    <option>Spagna</option>
+                                  </select>
+                                </div>
+                        
+                                <div class="col-4">
+                                  <label for="validationCustom05" class="form-label">CAP</label>
+                                  <input type="text" class="form-control" id="validationCustom05" required>
+                                  <div class="invalid-feedback">
+                                    Please provide a valid zip.
+                                  </div>
+                                </div>
+                        
+                                <div class="col-12">
+                                  <label for="validationCustomFoto" class="form-label">Foto</label>
+                                  <div class="input-group has-validation">
+                                    <input type="file" id="fileInput" name="fileInput">
+                                </div>
+                                </div>
+                        
+                                <div class="col-12">
+                                  <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                    <label class="form-check-label" for="invalidCheck">
+                                      Seleziona per proseguire
+                                    </label>
+                                    <div class="invalid-feedback">
+                                      You must agree before submitting.
+                                    </div>
+                                  </div>
+                                </div>
+                        
+                                <div class="col-3">
+                                  <button class="btn btn-primary" type="submit">Salva</button>
+                                </div>
+                        
+                                <div class="col-3">
+                                  <button class="btn btn-warning" type="submit">Svuota</button>
+                                </div>
+                        
+                                
+                              </form>
+                        
                             </div>
-
+                        
                         </div>
 
                     </div>
@@ -306,458 +308,460 @@
 
             </div>
 
-            <!-- dashboard section -->
-            <div class="my_dashboard">
+          </div>
 
-                <div class="container-fluid">
+        </div>
 
-                    <div class="row">
+        <!-- dashboard section -->
+        <div class="my_dashboard">
 
-                        <div class="col-12 col-lg-8">
+            <div class="container-fluid">
 
-                            <!-- next class section -->
-                            <div class="next_class">
+                <div class="row">
 
-                                <!-- next class title -->
-                                 <div class="dash_sect_title">
-                                    <h2>Prossime classi</h2>
-                                 </div> 
-                               
-                                
-                                <!-- table from  BS-->
-                                <table class="table">
+                    <div class="col-12 col-lg-8">
 
-                                    <thead>
-                                      <tr>
-                                        <th scope="col">Nome</th>
-                                        <th class="start_date" scope="col">Data inizio</th>
-                                        <th class="roi" scope="col">ROI</th>
-                                        <th scope="col">Stato</th>
-                                        <th scope="col">Azioni</th>
-                                      </tr>
-                                    </thead>
-                                
-                                    <tbody>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 75</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>15 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_done">
-                                            Done
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 76</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>16 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_done">
-                                            Done
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 77</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>17 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_process">
-                                            Process
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 78</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>18 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_done">
-                                            Done
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 79</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>19 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_failed">
-                                            Failed
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 80</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>20 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_done">
-                                            Done
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 81</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>21 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_failed">
-                                            Failed
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                      <tr>
-                                
-                                        <td>
-                                          <i class="fa-solid fa-code" style="color: #f26551;"></i>
-                                          <span>Classe 82</span>
-                                        </td>
-                                
-                                        <td class="start_date">
-                                          <span>22 Feb 2021</span>
-                                        </td>
-                                
-                                        <td class="roi">
-                                          20%
-                                        </td>
-                                
-                                        <td>
-                                          <div class="my_done">
-                                            Done
-                                          </div>
-                                        </td>
-                                
-                                        <td>
-                                          <a href="#">
-                                            <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
-                                          </a>
-                                          <a href="#">
-                                            <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
-                                          </a>
-                                        </td>
-                                
-                                      </tr>
-                                
-                                    </tbody>
-                                
-                                </table>
+                        <!-- next class section -->
+                        <div class="next_class">
 
-                            </div>
+                            <!-- next class title -->
+                              <div class="dash_sect_title">
+                                <h2>Prossime classi</h2>
+                              </div> 
+                            
+                            
+                            <!-- table from  BS-->
+                            <table class="table">
 
-                            <!-- F.A.Q. -->
-                            <div class="my_faq">
-
-                                <div class="dash_sect_title">
-                                    <h2>F.A.Q.</h2>
-                                </div> 
-
-                                <!-- accordion from BS -->
-                                <div class="accordion" id="accordionExample">
-
-                                  <!-- faq 1 -->
-                                  <div class="accordion-item">
-
-                                    <!-- question -->
-                                    <h2 class="accordion-header">
-                                      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Come aggiungere un nuovo studente?
-                                      </button>
-                                    </h2>
-
-                                    <!-- answer -->
-                                      <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          Cliccando sul + in alto nella sezione blu.
-                                        </div>
+                                <thead>
+                                  <tr>
+                                    <th scope="col">Nome</th>
+                                    <th class="start_date" scope="col">Data inizio</th>
+                                    <th class="roi" scope="col">ROI</th>
+                                    <th scope="col">Stato</th>
+                                    <th scope="col">Azioni</th>
+                                  </tr>
+                                </thead>
+                            
+                                <tbody>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 75</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>15 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_done">
+                                        Done
                                       </div>
-                                    </div>
-
-                                    <!-- faq 2 -->
-                                    <div class="accordion-item">
-
-                                      <!-- question -->
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                          Come posso accedere alle informazioni del mio account?
-                                        </button>
-                                      </h2>
-
-                                      <!-- answer -->
-                                      <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          Cliccaa sull'icona della campanella
-                                        </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 76</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>16 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_done">
+                                        Done
                                       </div>
-                                    </div>
-
-                                    <!-- faq 3 -->
-                                    <div class="accordion-item">
-
-                                      <!-- question -->
-                                      <h2 class="accordion-header">
-                                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                                          Posso usare questa dashboard da mobile?
-                                        </button>
-                                      </h2>
-
-                                      <!-- answer -->
-                                      <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
-                                        <div class="accordion-body">
-                                          Certo, la nostra applicazione è disponibile sullo store.
-                                        </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 77</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>17 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_process">
+                                        Process
                                       </div>
-                                    </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 78</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>18 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_done">
+                                        Done
+                                      </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 79</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>19 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_failed">
+                                        Failed
+                                      </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 80</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>20 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_done">
+                                        Done
+                                      </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 81</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>21 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_failed">
+                                        Failed
+                                      </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                  <tr>
+                            
+                                    <td>
+                                      <i class="fa-solid fa-code" style="color: #f26551;"></i>
+                                      <span>Classe 82</span>
+                                    </td>
+                            
+                                    <td class="start_date">
+                                      <span>22 Feb 2021</span>
+                                    </td>
+                            
+                                    <td class="roi">
+                                      20%
+                                    </td>
+                            
+                                    <td>
+                                      <div class="my_done">
+                                        Done
+                                      </div>
+                                    </td>
+                            
+                                    <td>
+                                      <a href="#">
+                                        <i class="fa-solid fa-pen" style="color: #9e9e9e;"></i>
+                                      </a>
+                                      <a href="#">
+                                        <i class="fa-solid fa-trash" style="color: #9e9e9e;"></i>
+                                      </a>
+                                    </td>
+                            
+                                  </tr>
+                            
+                                </tbody>
+                            
+                            </table>
 
+                        </div>
+
+                        <!-- F.A.Q. -->
+                        <div class="my_faq">
+
+                            <div class="dash_sect_title">
+                                <h2>F.A.Q.</h2>
+                            </div> 
+
+                            <!-- accordion from BS -->
+                            <div class="accordion" id="accordionExample">
+
+                              <!-- faq 1 -->
+                              <div class="accordion-item">
+
+                                <!-- question -->
+                                <h2 class="accordion-header">
+                                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                    Come aggiungere un nuovo studente?
+                                  </button>
+                                </h2>
+
+                                <!-- answer -->
+                                  <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Cliccando sul + in alto nella sezione blu.
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- faq 2 -->
+                                <div class="accordion-item">
+
+                                  <!-- question -->
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                      Come posso accedere alle informazioni del mio account?
+                                    </button>
+                                  </h2>
+
+                                  <!-- answer -->
+                                  <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Cliccaa sull'icona della campanella
+                                    </div>
+                                  </div>
+                                </div>
+
+                                <!-- faq 3 -->
+                                <div class="accordion-item">
+
+                                  <!-- question -->
+                                  <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                      Posso usare questa dashboard da mobile?
+                                    </button>
+                                  </h2>
+
+                                  <!-- answer -->
+                                  <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                                    <div class="accordion-body">
+                                      Certo, la nostra applicazione è disponibile sullo store.
+                                    </div>
+                                  </div>
                                 </div>
 
                             </div>
 
                         </div>
 
-                        <div class="col-12 col-lg-4">
+                    </div>
 
-                            <!-- to do secion -->
-                            <div class="my_to_do">
+                    <div class="col-12 col-lg-4">
 
-                                <div class="dash_sect_title">
-                                    <h2>To do</h2>
-                                </div> 
+                        <!-- to do secion -->
+                        <div class="my_to_do">
 
-                                  <div class="to_do_cnt">
+                            <div class="dash_sect_title">
+                                <h2>To do</h2>
+                            </div> 
 
-                                        <!-- check frrom BS -->
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                          <label class="form-check-label" for="flexCheckDefault">
-                                          Kickoff nuove classi
-                                          </label>
-                                      </div>
+                              <div class="to_do_cnt">
 
-                                      <hr>
-
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                          <label class="form-check-label" for="flexCheckDefault">
-                                          Lezione su Bootstrap 5 in classe #75
-                                          </label>
-                                      </div>
-                                      
-
-                                      <hr>
-
-                                      <div class="form-check">
-                                          <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
-                                          <label class="form-check-label" for="flexCheckDefault">
-                                              Controlla username github studenti  
-                                          </label>
-                                      </div>
-                                      
+                                    <!-- check frrom BS -->
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                      Kickoff nuove classi
+                                      </label>
                                   </div>
 
+                                  <hr>
+
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                      Lezione su Bootstrap 5 in classe #75
+                                      </label>
+                                  </div>
+                                  
+
+                                  <hr>
+
+                                  <div class="form-check">
+                                      <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+                                      <label class="form-check-label" for="flexCheckDefault">
+                                          Controlla username github studenti  
+                                      </label>
+                                  </div>
+                                  
+                              </div>
+
+                        </div>
+
+                        <!-- utenti attivi section -->
+                        <div class="active_user">
+
+                            <div class="active_user_cnt">
+
+                            <div class="img_active_user">
+                                <img src="asset/img/stats.jpeg" alt="stats">
                             </div>
 
-                            <!-- utenti attivi section -->
-                            <div class="active_user">
-
-                               <div class="active_user_cnt">
-
-                                <div class="img_active_user">
-                                    <img src="asset/img/stats.jpeg" alt="stats">
-                                </div>
-
-                                <h5>Utenti attivi</h5>
-                                
-                                <span>Lista degli utenti attivi nell'ultimo mese</span>
+                            <h5>Utenti attivi</h5>
+                            
+                            <span>Lista degli utenti attivi nell'ultimo mese</span>
 
 
-                                <div class="my_month">
-                                    Gennaio 1200
-                                </div>
-
-                                <hr>
-
-                                <div class="my_month">
-                                    Febbraio: 800
-                                </div>
-
-                                <hr>
-
-                                <div class="my_month">
-                                    Marzo: 1500
-                                </div>
-
-                                <hr>
-
-                                <div class="my_month">
-                                    <a href="#">
-                                        Visualizza repost approfondito
-                                    </a>
-                                </div>
-
+                            <div class="my_month">
+                                Gennaio 1200
                             </div>
 
-                        
-                          
-                            </div>    
+                            <hr>
 
-                    </div>
+                            <div class="my_month">
+                                Febbraio: 800
+                            </div>
+
+                            <hr>
+
+                            <div class="my_month">
+                                Marzo: 1500
+                            </div>
+
+                            <hr>
+
+                            <div class="my_month">
+                                <a href="#">
+                                    Visualizza repost approfondito
+                                </a>
+                            </div>
+
+                        </div>
+
+                    
+                      
+                        </div>    
 
                 </div>
 
@@ -766,6 +770,8 @@
         </div>
 
         </div>
+
+      </div>
 
     </div>    
 
