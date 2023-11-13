@@ -157,6 +157,9 @@ a   {
 }
 
 .to_do_cnt {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
     padding: 10px;
 }
 
@@ -182,7 +185,7 @@ a   {
 
 .dash_sect_title   {
     background-color: #F7F7F7;
-    padding: 3px;
+    padding: 10px;
     border-bottom: 1px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
