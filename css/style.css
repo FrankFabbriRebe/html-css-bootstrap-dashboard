@@ -153,15 +153,21 @@ a   {
     /* height: 100%; */
 }
 
+
 /* next class section */
 .dash_sect_title   {
     background-color: #F7F7F7;
     padding: 3px;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    border: 1px solid black;
 }
 
 /* table "prossime classi" */
+.table, .accordion, .form-check, .active_user, .active_user_cnt, .my_month {
+    border: 1px solid black;
+}
+
 .my_done    {
     background-color: #198755;
     color: white;
@@ -194,23 +200,39 @@ a   {
     display: none;
 }
 
-/* debug values */
-.my_dashboard .container-fluid  {
-    border: 2px solid blue;
+/* F.A.Q. section */
+.my_faq {
+    margin-bottom: 20px;
+}
+
+/* active user section */
+.active_user    {
+    margin-top: 15px;
+    padding: 3px;
+    /* debug */
+    /* height: 100px; */
+}
+
+.active_user_cnt    {
+    height: 100%;
+    width: 100%;
+}  
+
+.img_active_user    img {
+    width: 100%;
     /* height: 100%; */
 }
 
-.my_dashboard   .row    {
-    border: 2px solid red;
-    /* height: 100%; */
+.active_user a  {
+    color: blue;
+    text-decoration: underline;
 }
 
-.my_dashboard   [class^="col"]  {
-    border: 2px solid orange;
-    /* height: 100%; */
-}
 
-/* dekstop version */
+
+/************************************
+            dekstop version 
+*************************************/
 @media all and (min-width: 992px)   {
     .my_nav {
         width: 100px;
