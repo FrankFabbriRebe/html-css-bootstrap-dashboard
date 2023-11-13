@@ -146,6 +146,12 @@ a   {
     gap: 10px;
 }
 
+.btn-primary    {
+    background-color: #1B72E8;
+    border: 1px solid white;
+}
+
+
 /* my_dashboard section */
 .my_dashboard   {
     padding-top: 5px;
@@ -164,7 +170,7 @@ a   {
 }
 
 /* table "prossime classi" */
-.table, .accordion, .form-check, .active_user, .active_user_cnt, .my_month {
+.table, .accordion, .active_user, .active_user_cnt, .my_month {
     border: 1px solid black;
 }
 

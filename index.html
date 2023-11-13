@@ -190,10 +190,103 @@
                         <div class="col-12 col-md-4">
                             <div class="new_student">
                                 <span>Nuovo studente</span>
-                                <a href="#">
-                                    <i class="fa-solid fa-plus" style="color: #ffffff;"></i>
-                                </a>
+                                
+                                <button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"><i class="fa-solid fa-plus" style="color: #ffffff;"></i></button>
+
+                                <!-- offcanvas menu from BS -->
+                                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                                    <div class="offcanvas-header">
+                                      <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                                    </div>
+                                
+                                    <div class="offcanvas-body">
+                                
+                                      <form class="row g-3 needs-validation" novalidate>
+                                
+                                        <div class="col-6">
+                                          <label for="validationCustom01" class="form-label">First name</label>
+                                          <input type="text" class="form-control" id="validationCustom01" required>
+                                        </div>
+                                
+                                        <div class="col-6">
+                                          <label for="validationCustom02" class="form-label">Cognome</label>
+                                          <input type="text" class="form-control" id="validationCustom02" required>
+                                        </div>
+                                
+                                        <div class="col-6">
+                                          <label for="validationCustomUsername" class="form-label">Email</label>
+                                          <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">@</span>
+                                            <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="col-6">
+                                          <label for="validationCustom02" class="form-label">Password</label>
+                                          <input type="password" class="form-control" id="validationCustom02" required>
+                                        </div>
+                                
+                                        <div class="col-4">
+                                          <label for="validationCustom03" class="form-label">Città</label>
+                                          <input type="text" class="form-control" id="validationCustom03" required>
+                                        </div>
+                                
+                                        <div class="col-4">
+                                          <label for="validationCustom04" class="form-label">Stato</label>
+                                          <select class="form-select" id="validationCustom04" required>
+                                            <option selected disabled value="">Scegli...</option>
+                                            <option>Italia</option>
+                                            <option>Francia</option>
+                                            <option>Spagna</option>
+                                          </select>
+                                        </div>
+                                
+                                        <div class="col-4">
+                                          <label for="validationCustom05" class="form-label">CAP</label>
+                                          <input type="text" class="form-control" id="validationCustom05" required>
+                                          <div class="invalid-feedback">
+                                            Please provide a valid zip.
+                                          </div>
+                                        </div>
+                                
+                                        <div class="col-12">
+                                          <label for="validationCustomFoto" class="form-label">Foto</label>
+                                          <div class="input-group has-validation">
+                                            <span class="input-group-text" id="inputGroupPrepend">Scegli foto</span>
+                                            <input type="text" class="form-control" id="validationCustomFoto" aria-describedby="inputGroupPrepend" required>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="col-12">
+                                          <div class="form-check">
+                                            <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                                            <label class="form-check-label" for="invalidCheck">
+                                              Seleziona per proseguire
+                                            </label>
+                                            <div class="invalid-feedback">
+                                              You must agree before submitting.
+                                            </div>
+                                          </div>
+                                        </div>
+                                
+                                        <div class="col-3">
+                                          <button class="btn btn-primary" type="submit">Salva</button>
+                                        </div>
+                                
+                                        <div class="col-3">
+                                          <button class="btn btn-warning" type="submit">Svuota</button>
+                                        </div>
+                                
+                                        
+                                      </form>
+                                
+                                    </div>
+                                
+                                </div>
+
                             </div>
+
                         </div>
 
                     </div>
