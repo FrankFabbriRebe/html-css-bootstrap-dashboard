@@ -76,12 +76,13 @@ a   {
     height: calc(100vh - 70px);
     width: 100%;
     display: flex;
+    overflow-y: auto;
 }
 
 /* my_nav */
 .my_nav {
     width: 80px;
-    height: 100%;
+    /* height: 100%; */
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -106,9 +107,7 @@ a   {
 /* my_main_cnt */
 .my_main_cnt    {
     flex-grow: 1;
-    /* debug */
-    height: 100%;
-    background-color: bisque;
+    overflow-y: auto;
 }
 
 .my_main_cnt_header {
@@ -147,6 +146,70 @@ a   {
     gap: 10px;
 }
 
+/* my_dashboard section */
+.my_dashboard   {
+    padding-top: 5px;
+    /* debug */
+    /* height: 100%; */
+}
+
+/* next class section */
+.next_class_title   {
+    background-color: #F7F7F7;
+    padding: 3px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+/* table "prossime classi" */
+.my_done    {
+    background-color: #198755;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.my_process {
+    background-color: #FFC106;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.my_failed  {
+    background-color: #DC3444;
+    color: white;
+    padding: 5px;
+    width: fit-content;
+    border-radius: 5px;
+}
+
+.table  i   {
+    margin-right: 10px;
+}
+
+.start_date, .roi   {
+    display: none;
+}
+
+/* debug values */
+.my_dashboard .container-fluid  {
+    border: 2px solid blue;
+    /* height: 100%; */
+}
+
+.my_dashboard   .row    {
+    border: 2px solid red;
+    /* height: 100%; */
+}
+
+.my_dashboard   [class^="col"]  {
+    border: 2px solid orange;
+    /* height: 100%; */
+}
+
 /* dekstop version */
 @media all and (min-width: 992px)   {
     .my_nav {
@@ -183,8 +246,13 @@ a   {
     }
 }
 
+/* tablet version */
 @media all and (min-width: 768px)   {
     .new_student    {
         justify-content: end;
+    }
+
+    .start_date, .roi   {
+        display: table-cell;
     }
 }
