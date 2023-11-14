@@ -103,7 +103,7 @@ a   {
 }
 
 .link_nav:hover {
-    background-color: grey;
+    background-color: rgb(200, 200, 200);
 }
 
 /* my_main_cnt */
@@ -124,7 +124,6 @@ a   {
 }
 
 .blue_button    {
-    /* display: inline; */
     background-color: #165BBA;
     padding: 2px 10px;
     border-radius: 10px;
@@ -153,36 +152,9 @@ a   {
     gap: 10px;
 }
 
-.to_do_check    {
-    border: 1px solid black;
-    padding: 10px;
-}
-
-.to_do_cnt {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin: 10px;
-    padding: 10px;
-}
-
-.btn-primary    {
-    background-color: #1B72E8;
-    border: 1px solid white;
-}
-
 /* my_dashboard section */
 .my_dashboard   {
     padding-top: 15px;
-    /* debug */
-    /* height: 100%; */
-}
-
-
-/* next class section */
-.next_class {
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-bottom: 20px;
 }
 
 .dash_sect_title   {
@@ -191,6 +163,13 @@ a   {
     border-bottom: 1px solid black;
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+}
+
+/* next class section */
+.next_class {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-bottom: 20px;
 }
 
 /* table "prossime classi" */
@@ -226,15 +205,38 @@ a   {
     display: none;
 }
 
-/* F.A.Q. section */
-.my_faq {
+/* hover efect tr */
+tr:hover td {
+    background-color: rgb(200, 200, 200);
+} 
+
+
+/* to do section */
+.to_do_check    {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.to_do_cnt {
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.my_to_do   {
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
 }
 
-/* to do section */
-.my_to_do   {
+.btn-primary    {
+    background-color: #1B72E8;
+    border: 1px solid white;
+}
+
+/* F.A.Q. section */
+.my_faq {
     border: 1px solid black;
     border-radius: 10px;
     margin-bottom: 20px;
