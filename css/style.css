@@ -257,9 +257,21 @@ tr:hover td {
     border-radius: 10px;
     margin-bottom: 20px;
     padding: 10px;
-    /* debug */
-    /* height: 100px; */
 }
+
+.img_active_user    img {
+    width: 100%;
+}
+
+.active_user .list-group-item   {
+    border: 1px solid black;
+}
+
+.active_user a  {
+    color: blue;
+    text-decoration: underline;
+}
+/* 
 
 .active_user_cnt    {
     padding: 10px;
@@ -268,19 +280,15 @@ tr:hover td {
     padding: 10px;
 }  
 
-.img_active_user    img {
-    width: 100%;
-    /* height: 100%; */
-}
-
 hr  {
     margin: 0;
 }
 
-.active_user a  {
-    color: blue;
-    text-decoration: underline;
-}
+
+
+.active_user hr {
+    padding: 0;
+} */
 
 
 
